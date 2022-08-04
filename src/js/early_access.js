@@ -4,7 +4,7 @@ $("#early_access").click(function(){
     ({ 
         crossDomain: true,
         dataType: 'jsonp',
-        url: 'http://127.0.0.1:8000/api/early_access',
+        url: 'https://getana.herokuapp.com/api/early_access',
         data: {"early_access_email": email},
         type: 'get',
         success: function(result)
