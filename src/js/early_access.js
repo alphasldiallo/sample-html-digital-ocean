@@ -4,7 +4,7 @@ $("#early_access").click(function(){
     ({ 
         crossDomain: true,
         dataType: 'jsonp',
-        url: 'http://167.172.155.37:8000/api/early_access',
+        url: 'https://backend.geta.io/api/early_access',
         data: {"early_access_email": email},
         type: 'get',
         success: function(result)
